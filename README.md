@@ -1,4 +1,4 @@
-# TechAuto-MRP
+# PlannerEasy-MRP
 
 ### Abstract
 
