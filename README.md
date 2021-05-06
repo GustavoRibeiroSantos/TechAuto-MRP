@@ -1,6 +1,6 @@
 # TechAuto-MRP
 
-### Problema
+### Resumo
 
   O processo de planejamento de matéria-prima é o processo responsável por garantir que a linha de produção sempre terá insumos para produzir as demandas da fábrica, sendo assim, o processo se torna critíco e complexo, pois demanda um alto nivel de planejamento, organização e controle do analista responsável pela atividade. 
   
