@@ -1,26 +1,28 @@
 # PlannerEasy-MRP
 
-### Abstract
+### Introdução
 
-The process of raw material planning is the process responsible for ensuring that the production line will always have inputs to produce the demands of the plant, thus, the process becomes critical and complex, as it demands a high level of planning, organization and control of the analyst responsible for the activity.
-
-PlannerEasy exists to automate all this unnecessary work through software that will collect the necessary data regarding inventory, revenue and plan purchases of each raw material taking into account the delivery time of the supplier so that there are no delays. So, like all this automation, the process will gain agility and the analyst will gain all the hourly load that was required for this activity.
-
-
-### Resumo
-
-  O processo de planejamento de matéria-prima é o processo responsável por garantir que a linha de produção sempre terá insumos para produzir as demandas da fábrica, sendo assim, o processo se torna critíco e complexo, pois demanda um alto nivel de planejamento, organização e controle do analista responsável pela atividade. 
+  No século XXI, as empresas deparam-se com inúmeros cenários de concorrência e a globalização dos negócios é um grande influenciador para isso. Portanto, a cada dia as indústrias e grandes empresas necessitam ter um alto nível de relação com seus fornecedores que gera a necessidade de que os líderes tenham processos e ferramentas que sejam eficientes, confiáveis e precisas para evitar as perdas de oportunidades de vendas, assim como custos desnecessários, por exemplo, custo de estoque. Nesse cenário, o MRP se encaixa perfeitamente, pois se destaca na estratégia apresentada, com recursos flexíveis e de fácil utilização.
   
-  O PlannerEasy existe para automátizar todo esse trabalho desnecessário através de um software que irá coletar os dados necessários referente a estoque, receitas e planejará as compras de cada matéria-prima levando em consideração o tempo de entrega do fornecedor para que não haja atrasos. Assim, como toda essa automtização, o processo ganhará agilidade e o analista ganhará toda a carga horária que era demandada para essa atividade.
+  O MRP (Material Requirement Planning - Planejamento das Necessidades de Materiais) é um sistema que visa planejar a quantidade de materiais exigidos na linha de produção para satisfazer uma demanda específica de produção de um produto.
+  
+  O MRP tem como objetivo construir de forma precisa uma lista com todas as necessidades de materiais e embalagem e suas respectivas quantidades para abastecer a linha de produção, baseado no cronograma da produção dos produtos acabados.
+Outro recurso que o MRP traz é determinar o tempo no qual essas matérias primas precisam estar disponíveis para manter os níveis de produção suprindo suas necessidades para que não haja impacto no lead time prometido ao cliente.
+  
+  Porém mesmo que o processo de MRP traga inúmeros benefícios para as empresas, em algumas delas o processo continua manual, sendo assim, dependente de um analista do setor que planejamento que irá dedicar 1 dia inteiro da sua semana para realizar essa atividade, tempo preciso para a empresa onde o analista poderia estar desempenhando outras atividades. Outro fator que pode impactar esse processo é a falha humana, como o processo é realizado por um analista, ele está exposto a esses cenários de risco.
+
+  O processo de planejamento de matéria-prima é o processo responsável por garantir que a linha de produção sempre terá insumos para produzir as demandas da fábrica, sendo assim, o processo se torna crítico e complexo, pois demanda um alto nível de planejamento, organização e controle do analista responsável pela atividade. 
+  
+  O PlannerEasy existe para automatizar todo esse trabalho desnecessário através de um software que irá coletar os dados necessários referente a estoque, receitas e planejará as compras de cada matéria-prima levando em consideração o tempo de entrega do fornecedor para que não haja atrasos. Assim, como toda essa automatização, o processo ganhará agilidade e o analista ganhará toda a carga horária que era demandada para essa atividade.
 
 
 ### Motivação 
 
-  Hoje, o processo de planejamento começa no início do ano quando com o time de compras que é responsável por fechar os contratos com os fornecedores baseados em dados historicos de vendas, com isso, o analista de planejamento coleta no código dos contratos, acessa o sistema SAP para comprar uma quantidade de matéria-prima suficiente para 3 meses de produção baseado em dados históricos. 
+  Hoje, o processo de planejamento começa no início do ano quando com o time de compras que é responsável por fechar os contratos com os fornecedores baseados em dados históricos de vendas, com isso, o analista de planejamento coleta no código dos contratos, acessa o sistema SAP para comprar uma quantidade de matéria-prima suficiente para 3 meses de produção baseado em dados históricos. 
   
-  Diariamente, o time de demanda é responsável por coletar os pedidos de vendas que chegam dos clientes no sistema SAP da empresa e criar um arquivo Excel com toda a demanda. Então o analista de planejmaento executa o cálculo para obter a quantidade de matéria-prima necessária para produzir a demanda apresentada no arquivo. Esse processo é feito manualmente pelo analista de planejamento que usa várias planilhas Excel para calcular a quantidade de matéria-prima que deve ser comprada onde demanda muitas horas de trabalho do mesmo.
+  Diariamente, o time de demanda é responsável por coletar os pedidos de vendas que chegam dos clientes no sistema SAP da empresa e criar um arquivo Excel com toda a demanda. Então o analista de planejamento executa o cálculo para obter a quantidade de matéria-prima necessária para produzir a demanda apresentada no arquivo. Esse processo é feito manualmente pelo analista de planejamento que usa várias planilhas Excel para calcular a quantidade de matéria-prima que deve ser comprada onde demanda muitas horas de trabalho dele.
 
 
 ### Proposta de Solução
 
-  A proposta para esse problema é criação de um sistema que automatize todo esse trabalho desnecessário que irá coletar os dados necessários referente a estoque, receitas e planejará as compras de cada matéria-prima levando em consideração o tempo de entrega do fornecedor, requisitos e cenários para que não haja atrasos. Assim, como toda essa automtização, o processo ganhará agilidade e velocidade e uma quantidade enorme de horas de trabalho do funcionário será salva.
+  A proposta para esse problema é criação de um sistema que automatize todo esse trabalho desnecessário que irá coletar os dados necessários referente a estoque, receitas e planejará as compras de cada matéria-prima levando em consideração o tempo de entrega do fornecedor, requisitos e cenários para que não haja atrasos. Assim, como toda essa automatização, o processo ganhará agilidade e velocidade e uma quantidade enorme de horas de trabalho do funcionário será salva.
