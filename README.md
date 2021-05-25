@@ -10,13 +10,14 @@
 Outro recurso que o MRP traz é determinar o tempo no qual essas matérias primas precisam estar disponíveis para manter os níveis de produção suprindo suas necessidades para que não haja impacto no lead time prometido ao cliente.
   
   Porém mesmo que o processo de MRP traga inúmeros benefícios para as empresas, em algumas delas o processo continua manual, sendo assim, dependente de um analista do setor que planejamento que irá dedicar 1 dia inteiro da sua semana para realizar essa atividade, tempo preciso para a empresa onde o analista poderia estar desempenhando outras atividades. Outro fator que pode impactar esse processo é a falha humana, como o processo é realizado por um analista, ele está exposto a esses cenários de risco.
-
-  O processo de planejamento de matéria-prima é o processo responsável por garantir que a linha de produção sempre terá insumos para produzir as demandas da fábrica, sendo assim, o processo se torna crítico e complexo, pois demanda um alto nível de planejamento, organização e controle do analista responsável pela atividade. 
   
   O PlannerEasy existe para automatizar todo esse trabalho desnecessário através de um software que irá coletar os dados necessários referente a estoque, receitas e planejará as compras de cada matéria-prima levando em consideração o tempo de entrega do fornecedor para que não haja atrasos. Assim, como toda essa automatização, o processo ganhará agilidade e o analista ganhará toda a carga horária que era demandada para essa atividade.
 
+### Fundamentação téorica
 
-### Motivação 
+Nesta seçao, aborda-se o conceito de metodologia MRP e uma breve explicação sobre os Padrões de Projetos.
+
+### Metodogia MRP 
 
   Hoje, o processo de planejamento começa no início do ano quando com o time de compras que é responsável por fechar os contratos com os fornecedores baseados em dados históricos de vendas, com isso, o analista de planejamento coleta no código dos contratos, acessa o sistema SAP para comprar uma quantidade de matéria-prima suficiente para 3 meses de produção baseado em dados históricos. 
   
